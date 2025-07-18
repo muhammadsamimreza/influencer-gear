@@ -1,38 +1,80 @@
-
 /* Font family link */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-   font-family: Poppins;
+* {
+    font-family: Poppins;
 }
 
 /* Common styles */
 
-.container{
-    width: 1240px ;
+.container {
+    width: 1240px;
     margin: 0 auto;
 }
 
 /* Navber section Styles */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
 }
 
-.nav_items, ul{
+.nav_items,
+ul {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-ul a{
+ul a {
     text-decoration: none;
-    color:rgb(58, 58, 58);
+    color: rgb(58, 58, 58);
+
+}
+
+/* Hero section Styles */
+
+
+/* Left Sight */
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.left_sight{
+    max-width: 580px;
+}
+.left_sight h1 {
+    font-size: 3.2rem;
+    color: rgb(58, 58, 58);
+
+}
+
+.left_sight p {
+    color: rgb(58, 58, 58);
+    max-width: 500px;
+}
+
+button {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    color: white;
+    border: none;
+}
+
+
+.right_sight{
+    background-image: url(/images/Circle\ design.svg);
+   
+}
+.right_sight img{
     
 }
