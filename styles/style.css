@@ -213,10 +213,20 @@ button {
 
 }
 
-.social_website i {
-
-    /* background: rgb(255, 255, 255);
-    border-radius: 50px; */
-    padding: 10px;
-    color: white;
+.social_icon_background {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    background: rgba(234, 234, 239, 0.079);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
+
+.social_icon_background i {
+    padding: 10px;
+    color:white;
+
+} 
