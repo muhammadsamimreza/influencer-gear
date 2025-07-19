@@ -94,29 +94,32 @@ button {
 
 /* product cards styles */
 
-.product_cards{
+.product_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    justify-items: center;
+
+
 }
-.product_cards{
-    margin-top: 100px;
-}
+
 .card_1 {
     width: 329px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
-    padding:20px 5px;
+    padding: 20px 5px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
     margin-top: 50px;
 
 }
-.product_container h1{
+
+.product_container h1 {
     text-align: center;
-    color:rgb(58, 58, 58);
+    color: rgb(58, 58, 58);
+    margin-top: 100px;
 }
+
 .product_cards h2 {
     color: rgb(24, 25, 31);
     font-family: Poppins;
@@ -143,13 +146,77 @@ button {
     width: 300px;
     border-radius: 10px;
     margin: 0 auto;
-    
+
 }
 
-.star_icon i{
+.star_icon i {
     color: orange;
 }
-.ratting_point{
+
+.ratting_point {
     color: rgb(120, 120, 133);
     margin-left: 10px;
+}
+
+
+/* feature product section Styles */
+
+.feature_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.right_sight_feature p {
+    max-width: 600px;
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+/* FOoter section Styles */
+
+.footer_section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(10, 8, 38);
+    margin-top: 100px;
+}
+
+.footer {
+    height: 200px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer h1 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer span {
+    color: rgb(217, 219, 225);
+}
+
+.social_website {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.social_website i {
+
+    /* background: rgb(255, 255, 255);
+    border-radius: 50px; */
+    padding: 10px;
+    color: white;
 }
