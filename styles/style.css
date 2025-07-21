@@ -26,13 +26,15 @@ ul {
     align-items: center;
     gap: 10px;
 }
-.nav_items i{
+
+.nav_items i {
     padding: 10px;
     font-size: 1.25rem;
     color: rgb(58, 58, 58);
-    
+
 }
-.nav_items i:hover{
+
+.nav_items i:hover {
     color: rgb(224, 44, 109);
 }
 
@@ -48,12 +50,13 @@ ul a {
 
 }
 
-ul a:hover{
+ul a:hover {
     background: rgb(224, 44, 109);
-     padding: 10px 15px;
-     border-radius: 10px;
-     color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
 }
+
 /* Hero section Styles */
 
 
@@ -89,11 +92,12 @@ button {
     border: none;
 }
 
-button:hover{
-        background: rgb(192, 32, 90);
-        font-size: 14px;
+button:hover {
+    background: rgb(192, 32, 90);
+    font-size: 14px;
 
 }
+
 .right_sight {
     background-image: url(/images/Circle\ design.svg);
 
@@ -169,9 +173,11 @@ button:hover{
     margin: 0 auto;
 
 }
-.card_1 img{
+
+.card_1 img {
     width: 100%;
 }
+
 .star_icon i {
     color: orange;
 }
@@ -191,9 +197,11 @@ button:hover{
     margin-top: 150px;
 
 }
-.left_sight_feature img{
+
+.left_sight_feature img {
     display: block;
 }
+
 .right_sight_feature p {
     max-width: 600px;
     color: rgb(108, 108, 108);
@@ -252,6 +260,114 @@ button:hover{
 
 .social_icon_background i {
     padding: 10px;
-    color:white;
+    color: white;
 
-} 
+}
+
+
+
+/* Mobile responsive */
+
+@media screen and (max-width:576px) {
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .left_sight h1 {
+        font-size: 2rem;
+
+    }
+
+    /* navbar section */
+    .navbar,
+    .hero_section,
+    .feature_product,
+    .footer_section {
+        flex-direction: column;
+
+    }
+
+    .navbar {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav_items {
+        width: 100%;
+    }
+
+    .nav_items ul {
+        width: 100%;
+        margin-right: 0px;
+        padding: 0px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    ul a {
+        padding: 0px;
+
+    }
+
+    .nav_items i {
+        display: none;
+    }
+
+    /* hero section */
+    .right_sight img {
+        max-width: 300px;
+    }
+
+    .left_sight {
+        order: 2;
+    }
+
+    .right_sight {
+        background-image: url(/images/Circle\ design.svg);
+        background-size: cover;
+        order: 1;
+    }
+
+
+    /* Sponsorship section */
+
+    .sponsors_logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px auto;
+        border: none;
+        padding: 0px;
+        gap: 10px;
+
+    }
+
+    .sponsors_logo img {
+        width: 80px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    /* Product card */
+
+
+    .product_cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Feature product */
+
+    .feature_product {
+        margin-top: 100px;
+    }
+
+    /* Footer section */
+
+    .footer {
+        height: 200px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+}
