@@ -99,7 +99,7 @@ button:hover {
 }
 
 .right_sight {
-    background-image: url(/images/Circle\ design.svg);
+    background-image: url("../images/Circle\ design.svg");
 
 }
 
